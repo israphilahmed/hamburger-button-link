@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Redirect</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var menuIcon = document.querySelector(".menu-icon-selector"); // Update this selector based on your site structure
+      if (menuIcon) {
+        menuIcon.click();
+        setTimeout(function() {
+          window.location.href = "https://israphilahmed.myportfolio.com/#portfolio";
+        }, 500); // Adjust delay as needed
+      } else {
+        window.location.href = "https://israphilahmed.myportfolio.com/#portfolio";
+      }
+    });
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
